@@ -32,10 +32,10 @@ nav.black ul li a{color:#04163e;}
 .menu ul{display: flex;}
 
 .menu-icon{width: 100%;background:transparent;text-align: right;box-sizing: border-box;
-    padding: 15px 24px;cursor: pointer;color: #D9899E;display: none;}
+    padding: 15px 24px;cursor: pointer;color:#82D7D0;display: none;}
 
-.button{border: .1em solid #D9899E;padding: .5em 1em;display: flex;justify-content: center;align-items: center;}
-.button:hover, .button:hover a{background:  #D9899E;color: #fff;}
+.button{border: .1em solid#82D7D0;padding: .5em 1em;display: flex;justify-content: center;align-items: center;}
+.button:hover, .button:hover a{background: #82D7D0;color: #fff;}
 .button a{text-decoration: none;color: #000;font-size: .8rem;}
 
 .p10{width: 100%;}
@@ -46,25 +46,26 @@ nav.black ul li a{color:#04163e;}
 .p1{flex-direction: column;}
 
 .p1{padding: 4em 2em;}
-.p1 h1{color: #D9899E;}
+.p1 h1{color:#82D7D0;}
 .p1 p{margin: 1em 0;}
 
-.p2{background: url(/image/capa-1.png);background-size: cover;padding: 2em 1em;}
+.p2{background:#fff;background-size: cover;padding: 2em 1em;}
 
-.p2 h3{color: #D9899E;}
+.p2 h3{color:#82D7D0;}
 .p2-i img{width: 90%;height: auto;}
 .p2-i:nth-child(2){width: 80%;}
 .p2-i p{margin: 1em 0;}
 
-.p3{background: #D9899E;color: #fff;}
-.p3-box{display: grid;grid-template-columns: 30% 50%;justify-content: center;align-items: start;padding: 2em 1em;}
+.p3{background:#82D7D0;color: #fff;padding: 2em 1em;}
+.p3-box{padding: 2em 1em 0;display: flex;justify-content: center;align-items: flex-start;}
 .p3-item{margin: 0 .5em;}
-.p3 p{margin: 1em 0;}
-.p3 h1{align-items: start;}
+.p3 p, .p3 ul li{margin: .5em 0;width: 80%;}
+.p3 h1{align-items: center;text-align: center;}
 
-.p4-box{justify-content: space-around;align-items: flex-start;padding: 2em 0;}
+.p4{background: #f8f9fb;}
+.p4-box{display:flex;justify-content:  center;align-items: flex-start;padding: 2em 0;}
 .p4-item{width: 25%;}
-.p4-item h3{font-weight: 500;color: #D9899E;}
+.p4-item h3{font-weight: 500;color:#82D7D0;}
 .p4-item p{margin: .5em 0;}
 
 footer p{font-size: .7rem;padding: 1vh 0;margin: 0 3vw;}
@@ -93,11 +94,12 @@ footer p a{color:#df0b4d; text-decoration: none;}
     
     .menu-icon{display: block;}
 
-    .menu ul, .p2, .p4-box{flex-direction: column;}
+    .menu ul, .p2, .p4-box, .p3-box{flex-direction: column;}
 
+   .p3 ul li{font-size: .7rem;width: 50%;}
     .p1{text-align: center;}
     
-    .p3-box{grid-template-columns: 90%;}
+
    
     .p3 p{width: 80%;font-size: .7rem;}
 
