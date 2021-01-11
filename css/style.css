@@ -58,7 +58,7 @@ nav.black ul li a{color:#04163e;}
 
 .p3{background:#82D7D0;color: #fff;padding: 2em 1em;}
 .p3-box{padding: 2em 1em 0;display: flex;justify-content: center;align-items: flex-start;}
-.p3-item{margin: 0 .5em;}
+.p3-item{margin: 1em;}
 .p3 p, .p3 ul li{margin: .5em 0;width: 80%;}
 .p3 h1{align-items: center;text-align: center;}
 
